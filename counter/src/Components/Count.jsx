@@ -16,7 +16,7 @@ class Count extends Component{
     return(
       <>
       <h1>Counter App</h1>
-      <p>Count:{this.state.count}</p>
+      <p>Count: {this.state.count}</p>
       <button onClick={this.handleInc.bind(this)}>Increment</button>
       <button onClick={this.handleDec.bind(this)}>Decrement</button>
       </>
